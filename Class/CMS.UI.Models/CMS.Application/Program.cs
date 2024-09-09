@@ -7,6 +7,7 @@ namespace CMS.Application
         static void Main(string[] args)
         {
            Student student = new Student();
+           Staff staff = new Staff();
         }
     }
 }

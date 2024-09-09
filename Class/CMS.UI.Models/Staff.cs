@@ -7,6 +7,9 @@ namespace CMS.UI.Models
 {
     public class Staff
     {
-        
+        public Staff()
+        {
+            Console.WriteLine("Staff object created");
+        }
     }
 }
