@@ -13,6 +13,13 @@ namespace CMS.Application
 
             student.FirstName = "John";
             Console.WriteLine(student.FirstName);
+
+            Student student2 = new Student()
+            {
+                FirstName = "Jane",
+                LastName = "Doe",
+                StudentId = 1234
+            };
         }
     }
 }
