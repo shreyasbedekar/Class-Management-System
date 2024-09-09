@@ -1,0 +1,12 @@
+D:\Projects\C#\Class\CMS.UI.Models\bin\Debug\net8.0\CMS.UI.Models.deps.json
+D:\Projects\C#\Class\CMS.UI.Models\bin\Debug\net8.0\CMS.UI.Models.dll
+D:\Projects\C#\Class\CMS.UI.Models\bin\Debug\net8.0\CMS.UI.Models.pdb
+D:\Projects\C#\Class\CMS.UI.Models\obj\Debug\net8.0\CMS.UI.Models.GeneratedMSBuildEditorConfig.editorconfig
+D:\Projects\C#\Class\CMS.UI.Models\obj\Debug\net8.0\CMS.UI.Models.AssemblyInfoInputs.cache
+D:\Projects\C#\Class\CMS.UI.Models\obj\Debug\net8.0\CMS.UI.Models.AssemblyInfo.cs
+D:\Projects\C#\Class\CMS.UI.Models\obj\Debug\net8.0\CMS.UI.Models.csproj.CoreCompileInputs.cache
+D:\Projects\C#\Class\CMS.UI.Models\obj\Debug\net8.0\CMS.UI.Models.sourcelink.json
+D:\Projects\C#\Class\CMS.UI.Models\obj\Debug\net8.0\CMS.UI.Models.dll
+D:\Projects\C#\Class\CMS.UI.Models\obj\Debug\net8.0\refint\CMS.UI.Models.dll
+D:\Projects\C#\Class\CMS.UI.Models\obj\Debug\net8.0\CMS.UI.Models.pdb
+D:\Projects\C#\Class\CMS.UI.Models\obj\Debug\net8.0\ref\CMS.UI.Models.dll

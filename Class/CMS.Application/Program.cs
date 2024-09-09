@@ -1,4 +1,5 @@
-﻿using CMS.UI.Models;
+﻿using System.Security.Cryptography;
+using CMS.UI.Models;
 
 namespace CMS.Application
 {
@@ -6,9 +7,12 @@ namespace CMS.Application
     {
         static void Main(string[] args)
         {
-           Student student = new Student();
-           Staff staff = new Staff();
-           Course computerScience = new Course();
+            Student student = new Student();
+            Staff staff = new Staff();
+            Course computerScience = new Course();
+
+            student.FirstName = "John";
+            Console.WriteLine(student.FirstName);
         }
     }
 }
