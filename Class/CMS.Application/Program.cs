@@ -20,6 +20,7 @@ namespace CMS.Application
                 LastName = "Doe",
                 StudentId = 1234
             };
+
         }
     }
 }
