@@ -1,4 +1,5 @@
-﻿using System.Security.Cryptography;
+﻿using System.Diagnostics.Contracts;
+using System.Security.Cryptography;
 using CMS.UI.Models;
 
 namespace CMS.Application
@@ -21,6 +22,26 @@ namespace CMS.Application
                 StudentId = 1234
             };
 
+            //readonly variable
+            //student2.MaxEnrolledCourses = 5;
+
+            //static variable
+            Student.MaxBooksAllowed = 10;
+            Console.WriteLine(Student.MaxBooksAllowed); 
+
+            //Value and Reference Types
+            Console.WriteLine("Value and Reference Types");
+            int x = 10;
+            Console.WriteLine(x);
+            int b=x;
+            b = 20;
+            Console.WriteLine(x);
+
+            student.FirstName = "Jane";
+            Console.WriteLine(student.FirstName);
+            student2 = student;
+            student2.FirstName = "Mary";
+            Console.WriteLine(student.FirstName);
         }
     }
 }

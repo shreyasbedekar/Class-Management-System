@@ -7,6 +7,7 @@ public class Student
         public int StudentId = 10;
         //public const int MaxEnrolledCourses = 3;
         public readonly int MaxEnrolledCourses = 3;
+        public static int MaxBooksAllowed =5;
         public Student()
         {
                 int TotalCourses = 0;
