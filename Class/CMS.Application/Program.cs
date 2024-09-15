@@ -12,8 +12,8 @@ namespace CMS.Application
             Staff staff = new Staff();
             Course computerScience = new Course();
 
-            student.FirstName = "John";
-            Console.WriteLine(student.FirstName);
+            //student.FirstName = "John";
+            //Console.WriteLine(student.FirstName);
 
             Student student2 = new Student()
             {
@@ -26,22 +26,22 @@ namespace CMS.Application
             //student2.MaxEnrolledCourses = 5;
 
             //static variable
-            Student.MaxBooksAllowed = 10;
-            Console.WriteLine(Student.MaxBooksAllowed); 
+            //Student.MaxBooksAllowed = 10;
+            //Console.WriteLine(Student.MaxBooksAllowed); 
 
             //Value and Reference Types
-            Console.WriteLine("Value and Reference Types");
-            int x = 10;
-            Console.WriteLine(x);
-            int b=x;
-            b = 20;
-            Console.WriteLine(x);
+            //Console.WriteLine("Value and Reference Types");
+            //int x = 10;
+            //Console.WriteLine(x);
+            //int b=x;
+            //b = 20;
+            //Console.WriteLine(x);
 
-            student.FirstName = "Jane";
-            Console.WriteLine(student.FirstName);
-            student2 = student;
-            student2.FirstName = "Mary";
-            Console.WriteLine(student.FirstName);
+            //student.FirstName = "Jane";
+            //Console.WriteLine(student.FirstName);
+            //student2 = student;
+            //student2.FirstName = "Mary";
+            //Console.WriteLine(student.FirstName);
 
             //Acess Modifiers
             //staff.FirstName = "John";
@@ -59,6 +59,10 @@ namespace CMS.Application
             };
             Console.WriteLine(student3.GetId());
             Console.WriteLine(student3.GetFullName());
+
+            //Constructor & Destructor
+            Student student4 = new Student();
+            Student student5 = new Student(123, "Jane", "Doe");
         }
     }
 }
