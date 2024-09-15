@@ -42,6 +42,9 @@ namespace CMS.Application
             student2 = student;
             student2.FirstName = "Mary";
             Console.WriteLine(student.FirstName);
+
+            //Acess Modifiers
+            //staff.FirstName = "John";
         }
     }
 }
