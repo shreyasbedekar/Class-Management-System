@@ -45,6 +45,11 @@ namespace CMS.Application
 
             //Acess Modifiers
             //staff.FirstName = "John";
+
+            computerScience.CourseId = 1;
+            computerScience.CourseName = "Computer Science";
+            Console.WriteLine(computerScience.CourseId);
+            Console.WriteLine(computerScience.CourseName);
         }
     }
 }
