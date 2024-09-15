@@ -46,23 +46,28 @@ namespace CMS.Application
             //Acess Modifiers
             //staff.FirstName = "John";
 
-            computerScience.CourseId = 1;
-            computerScience.CourseName = "Computer Science";
-            Console.WriteLine(computerScience.CourseId);
-            Console.WriteLine(computerScience.CourseName);
+           // computerScience.CourseId = 1;
+            //computerScience.CourseName = "Computer Science";
+            //Console.WriteLine(computerScience.CourseId);
+            //Console.WriteLine(computerScience.CourseName);
 
-             Student student3 = new Student()
+             /* Student student3 = new Student()
             {
                 FirstName = "Jane",
                 LastName = "Doe",
                 StudentId = 12345
             };
             Console.WriteLine(student3.GetId());
-            Console.WriteLine(student3.GetFullName());
+            Console.WriteLine(student3.GetFullName()); */
 
             //Constructor & Destructor
-            Student student4 = new Student();
-            Student student5 = new Student(123, "Jane", "Doe");
+            //Student student4 = new Student();
+            //Student student5 = new Student(123, "Jane", "Doe");
+
+            //Properties
+            Staff staff2 = new Staff();
+            String name = staff2.FirstName;
+            name = staff2.LastName;
         }
     }
 }
