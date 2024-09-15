@@ -13,4 +13,13 @@ public class Student
                 int TotalCourses = 0;
                 MaxEnrolledCourses =TotalCourses;
         }
+
+        public int GetId()
+        {
+                return StudentId;
+        }
+        public string GetFullName()
+        {
+                return FirstName + " " + LastName;
+        }
 }

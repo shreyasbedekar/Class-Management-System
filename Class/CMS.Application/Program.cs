@@ -50,6 +50,15 @@ namespace CMS.Application
             computerScience.CourseName = "Computer Science";
             Console.WriteLine(computerScience.CourseId);
             Console.WriteLine(computerScience.CourseName);
+
+             Student student3 = new Student()
+            {
+                FirstName = "Jane",
+                LastName = "Doe",
+                StudentId = 12345
+            };
+            Console.WriteLine(student3.GetId());
+            Console.WriteLine(student3.GetFullName());
         }
     }
 }
