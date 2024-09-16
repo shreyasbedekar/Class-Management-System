@@ -25,5 +25,12 @@ namespace CMS.UI.Models
             Console.WriteLine("Staff object created");
             FirstName = "John";
         }
+
+        public void CalculateFees(decimal electiveFees, ref decimal roughFees, out decimal finalFees)
+        {
+            electiveFees = 1000;
+            roughFees = 1000;
+            finalFees = 1000;
+        }
     }
 }

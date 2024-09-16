@@ -66,8 +66,22 @@ namespace CMS.Application
 
             //Properties
             Staff staff2 = new Staff();
-            String name = staff2.FirstName;
-            name = staff2.LastName;
+            //String name = staff2.FirstName;
+            //name = staff2.LastName;
+
+            //Types of passing parameters
+            decimal electiveFees = 500;
+            decimal roughFees = 500;
+            decimal finalFees = 500;
+            Console.WriteLine(electiveFees);
+            Console.WriteLine(roughFees);
+            Console.WriteLine(finalFees);
+
+            staff.CalculateFees(electiveFees, ref roughFees, out finalFees);
+            Console.WriteLine("After calling CalculateFees method");
+            Console.WriteLine(electiveFees);
+            Console.WriteLine(roughFees);
+            Console.WriteLine(finalFees);
         }
     }
 }
