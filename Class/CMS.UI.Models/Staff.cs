@@ -32,5 +32,15 @@ namespace CMS.UI.Models
             roughFees = 1000;
             finalFees = 1000;
         }
+
+        /* public void UpdateInfo(string firstName)
+        {
+            FirstName = firstName;
+        } */
+        public void UpdateInfo(string firstName, string lastName = "")
+        {
+            FirstName = firstName;
+            LastName = lastName;
+        }
     }
 }

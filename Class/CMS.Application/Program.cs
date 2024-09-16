@@ -82,6 +82,10 @@ namespace CMS.Application
             Console.WriteLine(electiveFees);
             Console.WriteLine(roughFees);
             Console.WriteLine(finalFees);
+
+            //Method Overloading
+            staff.UpdateInfo("Jane");
+            staff.UpdateInfo("Jane", "Doe");
         }
     }
 }
