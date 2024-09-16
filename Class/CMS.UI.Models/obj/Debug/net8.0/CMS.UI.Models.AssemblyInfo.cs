@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("CMS.UI.Models")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+3a8a58ae110b9ae4180ec557f609ac99c73fbf41")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+7960abd30a685cac49038b338d7bd56db0c9c8e7")]
 [assembly: System.Reflection.AssemblyProductAttribute("CMS.UI.Models")]
 [assembly: System.Reflection.AssemblyTitleAttribute("CMS.UI.Models")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

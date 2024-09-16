@@ -2,6 +2,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\CMS.UI.Models\CMS.UI.Models.csproj" />
+    <ProjectReference Include="..\CMS.UI.Display\CMS.UI.Display.csproj" />
   </ItemGroup>
 
   <PropertyGroup>

@@ -1,6 +1,9 @@
-﻿using System.Diagnostics.Contracts;
+﻿using System.ComponentModel.DataAnnotations;
+using System.Diagnostics.Contracts;
 using System.Security.Cryptography;
+using CMS.UI.Display;
 using CMS.UI.Models;
+
 
 namespace CMS.Application
 {
@@ -86,6 +89,9 @@ namespace CMS.Application
             //Method Overloading
             staff.UpdateInfo("Jane");
             staff.UpdateInfo("Jane", "Doe");
+
+            //Static class
+            Display.Show("Hello World");
         }
     }
 }
