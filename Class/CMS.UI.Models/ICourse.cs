@@ -2,6 +2,7 @@ namespace CMS.UI.Models
 {
     public interface ICourse
     {
+        int TotalDurationInDays {get; set;}
         int TotalSubjects 
         {
             get

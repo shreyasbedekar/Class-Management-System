@@ -9,6 +9,8 @@ namespace CMS.UI.Models
     {
         public List<CourseSubject> Subjects => throw new NotImplementedException();
 
+        public int TotalDurationInDays { get => throw new NotImplementedException(); set => throw new NotImplementedException(); }
+
         public void AddSubject(CourseSubject subject)
         {
             throw new NotImplementedException();

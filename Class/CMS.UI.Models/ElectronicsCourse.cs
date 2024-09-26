@@ -7,6 +7,12 @@ namespace CMS.UI.Models
 {
     public class ElectronicsCourse : ICourse
     {
+        public List<CourseSubject> Subjects => throw new NotImplementedException();
+
+        int ICourse.TotalDurationInDays { get => throw new NotImplementedException(); set => throw new NotImplementedException(); }
+
+        List<CourseSubject> ICourse.Subjects => throw new NotImplementedException();
+
         void ICourse.AddSubject(CourseSubject subject)
         {
             throw new NotImplementedException();
