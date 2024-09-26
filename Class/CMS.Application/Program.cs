@@ -98,6 +98,8 @@ namespace CMS.Application
 
             Console.WriteLine(csCourse.GetTotalElectives());
 
+            ICourse.DefaultElectives = 10;
+
         }
     }
 }
