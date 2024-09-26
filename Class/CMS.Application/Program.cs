@@ -94,6 +94,10 @@ namespace CMS.Application
             Display.Show("Hello World"); */
 
             ICourse csCourse = new CSCourse();
+            ICourse eleCourse = new ElectronicsCourse();
+
+            Console.WriteLine(csCourse.GetTotalElectives());
+
         }
     }
 }

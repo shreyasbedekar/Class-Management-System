@@ -7,6 +7,8 @@ namespace CMS.UI.Models
 {
     public class CSCourse : ICourse
     {
+        public List<CourseSubject> Subjects => throw new NotImplementedException();
+
         public void AddSubject(CourseSubject subject)
         {
             throw new NotImplementedException();

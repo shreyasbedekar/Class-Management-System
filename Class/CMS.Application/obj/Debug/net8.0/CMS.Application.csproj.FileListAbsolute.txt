@@ -17,3 +17,5 @@ D:\Projects\C#\Class\CMS.Application\obj\Debug\net8.0\refint\CMS.Application.dll
 D:\Projects\C#\Class\CMS.Application\obj\Debug\net8.0\CMS.Application.pdb
 D:\Projects\C#\Class\CMS.Application\obj\Debug\net8.0\CMS.Application.genruntimeconfig.cache
 D:\Projects\C#\Class\CMS.Application\obj\Debug\net8.0\ref\CMS.Application.dll
+D:\Projects\C#\Class\CMS.Application\bin\Debug\net8.0\CMS.UI.Display.dll
+D:\Projects\C#\Class\CMS.Application\bin\Debug\net8.0\CMS.UI.Display.pdb
