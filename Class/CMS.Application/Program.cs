@@ -11,19 +11,19 @@ namespace CMS.Application
     {
         static void Main(string[] args)
         {
-            Student student = new Student();
-            Staff staff = new Staff();
-            Course computerScience = new Course();
+            //Student student = new Student();
+           // Staff staff = new Staff();
+           // Course computerScience = new Course();
 
             //student.FirstName = "John";
             //Console.WriteLine(student.FirstName);
 
-            Student student2 = new Student()
+            /* Student student2 = new Student()
             {
                 FirstName = "Jane",
                 LastName = "Doe",
                 StudentId = 1234
-            };
+            }; */
 
             //readonly variable
             //student2.MaxEnrolledCourses = 5;
@@ -68,7 +68,7 @@ namespace CMS.Application
             //Student student5 = new Student(123, "Jane", "Doe");
 
             //Properties
-            Staff staff2 = new Staff();
+           /*  Staff staff2 = new Staff();
             //String name = staff2.FirstName;
             //name = staff2.LastName;
 
@@ -91,7 +91,9 @@ namespace CMS.Application
             staff.UpdateInfo("Jane", "Doe");
 
             //Static class
-            Display.Show("Hello World");
+            Display.Show("Hello World"); */
+
+            ICourse csCourse = new CSCourse();
         }
     }
 }

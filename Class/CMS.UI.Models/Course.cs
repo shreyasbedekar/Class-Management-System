@@ -5,7 +5,7 @@ using System.Threading.Tasks;
 
 namespace CMS.UI.Models
 {
-    public class Course
+    public class Course : ICourse
     {
         public int CourseId;
         public string CourseName;   
