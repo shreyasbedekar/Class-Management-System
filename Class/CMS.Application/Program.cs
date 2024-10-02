@@ -112,6 +112,9 @@ namespace CMS.Application
             Student student = new Student();
             student.GetFullName();
             List<string> hobbies = student.Hobbies;
+
+            Student student2 = new Student(123, "Jane", "Doe");
+            Console.WriteLine(student2.GetFullName());
         }
     }
 }

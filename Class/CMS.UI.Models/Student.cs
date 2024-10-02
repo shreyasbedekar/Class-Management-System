@@ -22,7 +22,7 @@ public class Student : Person
             MaxEnrolledCourses = TotalCourses;
         }
 
-        public Student(int id, string firstName, string lastName)
+        public Student(int id, string firstName, string lastName) : base(firstName, lastName)
         {
             Console.WriteLine("Calling Student.Student(int, string, string)");
 

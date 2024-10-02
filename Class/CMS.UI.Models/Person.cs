@@ -7,6 +7,17 @@ namespace CMS.UI.Models
 {
     public class Person
     {
+        public Person()
+        {
+            Console.WriteLine("Person object created");
+        }
+
+        public Person(string firstName, string lastName)
+        {
+            Console.WriteLine("Person object calling Person.Person(string, string)");
+            FirstName = firstName;
+            LastName = lastName;
+        }
         public string FirstName { get ; set; }
         public string LastName { get ; set; }
         public virtual string GetFullName()
