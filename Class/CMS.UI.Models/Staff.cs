@@ -6,19 +6,9 @@ using System.Threading.Tasks;
 
 namespace CMS.UI.Models
 {
-    public class Staff
+    public class Staff : Person
     {
-        private string firstName;
-        public string FirstName{
-            get{
-                return FirstName;
-            }
-            set{
-                firstName = value;
-            }
-        }
-        //ublic string LastName { get; set; }
-        public string LastName { get; set; } = string.Empty;
+        public int WorkingHoursPerWeek { get; set; }
         public int  Id {get; private set;}
         public Staff()
         {
@@ -26,7 +16,13 @@ namespace CMS.UI.Models
             FirstName = "John";
         }
 
-        public void CalculateFees(decimal electiveFees, ref decimal roughFees, out decimal finalFees)
+        public Staff(string firstName, string lastName) : base(firstName, lastName)
+        {
+            firstName = "John";
+            lastName = "Doe";
+            WorkingHoursPerWeek = 40;
+        }
+        protected internal void CalculateFees(decimal electiveFees, ref decimal roughFees, out decimal finalFees)
         {
             electiveFees = 1000;
             roughFees = 1000;
@@ -37,7 +33,7 @@ namespace CMS.UI.Models
         {
             FirstName = firstName;
         } */
-        public void UpdateInfo(string firstName, string lastName = "")
+        private protected void UpdateInfo(string firstName, string lastName = "")
         {
             FirstName = firstName;
             LastName = lastName;

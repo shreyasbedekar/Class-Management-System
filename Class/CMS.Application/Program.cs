@@ -138,6 +138,20 @@ namespace CMS.Application
             {
                 Console.WriteLine("Conversion failed");
             }
+
+            Staff staff = new Staff("Mary", "Smith");
+            person = staff;
+
+            if(person is Staff)
+            {
+                staff = (Staff)person;
+                staff.WorkingHoursPerWeek = 40;
+                Console.WriteLine(staff.WorkingHoursPerWeek);
+            }
+            else
+            {
+                Console.WriteLine("Conversion failed");
+            }
         }
     }
 }
