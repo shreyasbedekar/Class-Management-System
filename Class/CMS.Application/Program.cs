@@ -93,12 +93,19 @@ namespace CMS.Application
             //Static class
             Display.Show("Hello World"); */
 
-            ICourse csCourse = new CSCourse();
-            ICourse eleCourse = new ElectronicsCourse();
+            //ICourse csCourse = new CSCourse();
+            //ICourse eleCourse = new ElectronicsCourse();
 
-            Console.WriteLine(csCourse.GetTotalElectives());
+            //Console.WriteLine(csCourse.GetTotalElectives());
 
-            ICourse.DefaultElectives = 10;
+            //ICourse.DefaultElectives = 10;
+
+            IStudent student = new Student();
+            student.FirstName = "Jane";
+            student.LastName = "Doe";
+            Console.WriteLine(student.GetFullName());
+
+            Console.WriteLine(IStudent.WhoAmI());
 
         }
     }

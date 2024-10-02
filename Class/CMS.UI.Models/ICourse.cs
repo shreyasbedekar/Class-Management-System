@@ -2,7 +2,7 @@ namespace CMS.UI.Models
 {
     public interface ICourse
     {
-        static int DefaultElectives =8;
+        //static int DefaultElectives =8;
         static void ShowDetails()
         {
             System.Console.WriteLine("Course Details");

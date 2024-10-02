@@ -18,6 +18,9 @@ namespace CMS.UI.Models
                 return subjects;
             }
         }
+
+        public int TotalDurationInDays { get => throw new NotImplementedException(); set => throw new NotImplementedException(); }
+
         public void AddSubject(CourseSubject subject)
         {
             if (subjects.Count < MaxSubjects)
