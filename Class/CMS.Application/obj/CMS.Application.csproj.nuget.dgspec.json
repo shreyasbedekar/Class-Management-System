@@ -94,7 +94,11 @@
         "frameworks": {
           "net8.0": {
             "targetAlias": "net8.0",
-            "projectReferences": {}
+            "projectReferences": {
+              "D:\\Projects\\C#\\Class\\CMS.UI.Models\\CMS.UI.Models.csproj": {
+                "projectPath": "D:\\Projects\\C#\\Class\\CMS.UI.Models\\CMS.UI.Models.csproj"
+              }
+            }
           }
         },
         "warningProperties": {

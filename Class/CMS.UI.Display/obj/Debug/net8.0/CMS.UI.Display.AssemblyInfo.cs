@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("CMS.UI.Display")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+6f7d9f27de2848cddef70e604287a122ce9d533e")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+52ec106eb65df072c2b7e3cbaebbad6f587479a6")]
 [assembly: System.Reflection.AssemblyProductAttribute("CMS.UI.Display")]
 [assembly: System.Reflection.AssemblyTitleAttribute("CMS.UI.Display")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

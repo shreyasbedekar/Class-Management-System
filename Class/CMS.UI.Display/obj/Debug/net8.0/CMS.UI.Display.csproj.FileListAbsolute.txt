@@ -10,3 +10,7 @@ D:\Projects\C#\Class\CMS.UI.Display\obj\Debug\net8.0\CMS.UI.Display.dll
 D:\Projects\C#\Class\CMS.UI.Display\obj\Debug\net8.0\refint\CMS.UI.Display.dll
 D:\Projects\C#\Class\CMS.UI.Display\obj\Debug\net8.0\CMS.UI.Display.pdb
 D:\Projects\C#\Class\CMS.UI.Display\obj\Debug\net8.0\ref\CMS.UI.Display.dll
+D:\Projects\C#\Class\CMS.UI.Display\bin\Debug\net8.0\CMS.UI.Models.dll
+D:\Projects\C#\Class\CMS.UI.Display\bin\Debug\net8.0\CMS.UI.Models.pdb
+D:\Projects\C#\Class\CMS.UI.Display\obj\Debug\net8.0\CMS.UI.Display.csproj.AssemblyReference.cache
+D:\Projects\C#\Class\CMS.UI.Display\obj\Debug\net8.0\CMS.UI.D.E3BD4CA9.Up2Date

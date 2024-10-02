@@ -16,6 +16,9 @@
         }
       },
       "CMS.UI.Display/1.0.0": {
+        "dependencies": {
+          "CMS.UI.Models": "1.0.0"
+        },
         "runtime": {
           "CMS.UI.Display.dll": {
             "assemblyVersion": "1.0.0",

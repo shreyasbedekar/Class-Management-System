@@ -115,6 +115,29 @@ namespace CMS.Application
 
             Student student2 = new Student(123, "Jane", "Doe");
             Console.WriteLine(student2.GetFullName());
+
+            Person person = new Student(100, "John", "Doe");
+            Console.WriteLine(person.GetFullName());
+
+            student = person as Student;
+            if( student != null)
+            {
+                List<string> hobbies2 = student.Hobbies;
+            }
+            else
+            {
+                Console.WriteLine("Conversion failed");
+            }
+
+            if(person is Student)
+            {
+                student = (Student)person;
+                List<string> hobbies2 = student.Hobbies;
+            }
+            else
+            {
+                Console.WriteLine("Conversion failed");
+            }
         }
     }
 }
