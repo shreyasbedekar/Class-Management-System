@@ -100,13 +100,18 @@ namespace CMS.Application
 
             //ICourse.DefaultElectives = 10;
 
-            IStudent student = new Student();
-            student.FirstName = "Jane";
-            student.LastName = "Doe";
-            Console.WriteLine(student.GetFullName());
+            //Interface
+            //IStudent student = new Student();
+            //student.FirstName = "Jane";
+            //student.LastName = "Doe";
+            //Console.WriteLine(student.GetFullName());
 
-            Console.WriteLine(IStudent.WhoAmI());
+            //Console.WriteLine(IStudent.WhoAmI());
 
+            //Inheritance
+            Student student = new Student();
+            student.GetFullName();
+            List<string> hobbies = student.Hobbies;
         }
     }
 }

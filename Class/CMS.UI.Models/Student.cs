@@ -1,11 +1,8 @@
 ﻿namespace CMS.UI.Models;
 
-public class Student : IStudent
+public class Student : Person
     {
-        // Class fields
-        public string FirstName { get ; set; }
-        public string LastName { get ; set; }
-
+        public List<string> Hobbies { get; set; }
         public int StudentId = 10000;
 
         // readonly field
