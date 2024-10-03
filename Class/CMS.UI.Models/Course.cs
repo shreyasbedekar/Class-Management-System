@@ -7,30 +7,24 @@ namespace CMS.UI.Models
 {
     public class Course : ICourse
     {
-        public int CourseId;
-        public string CourseName;   
-        public static int MaxSubjects =8; 
+         public int CourseId;
+        public string CourseName;
+        public static int MaxSubjects = 8;
+        public int TotalDurationInDays { get; set; }
+
         private List<CourseSubject> subjects = new List<CourseSubject>();
+
         public List<CourseSubject> Subjects
         {
-            get
-            {
-                return subjects;
-            }
+            get { return subjects; }
+            private set { subjects = value; }
         }
 
-        public int TotalDurationInDays { get => throw new NotImplementedException(); set => throw new NotImplementedException(); }
-
-        public void AddSubject(CourseSubject subject)
+        public virtual void AddSubject(CourseSubject subject)
         {
-            if (subjects.Count < MaxSubjects)
-            {
-                subjects.Add(subject);
-            }
-            else
-            {
-                Console.WriteLine("Max Subjects reached");
-            }
+            Console.WriteLine("Calling Course.AddSubject(CourseSubject)");
+
+            subjects.Add(subject);
         }
 
         public void RemoveSubject(CourseSubject subject)
@@ -38,9 +32,9 @@ namespace CMS.UI.Models
             subjects.Remove(subject);
         }
 
-        public void AddSubject(List<CourseSubject> subjectName)
+        public void AddSubject(List<CourseSubject> subjectsList)
         {
-            subjects.AddRange(subjectName);
+            subjects.AddRange(subjectsList);
         }
     }
 }

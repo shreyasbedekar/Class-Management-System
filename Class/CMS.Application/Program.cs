@@ -109,7 +109,7 @@ namespace CMS.Application
             //Console.WriteLine(IStudent.WhoAmI());
 
             //Inheritance
-            Student student = new Student();
+            /* Student student = new Student();
             student.GetFullName();
             List<string> hobbies = student.Hobbies;
 
@@ -151,7 +151,11 @@ namespace CMS.Application
             else
             {
                 Console.WriteLine("Conversion failed");
-            }
+            } */
+
+            //Polymorphism
+            Course course = new Course();
+            course.AddSubject(new CourseSubject(30, "Maths"));
         }
     }
 }

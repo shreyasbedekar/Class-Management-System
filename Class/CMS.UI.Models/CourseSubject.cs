@@ -7,7 +7,13 @@ namespace CMS.UI.Models
 {
     public class CourseSubject
     {
-        public int CourseSubjectId;
-        public string CourseSubjectName;
+        public int Id;
+        public string SubjectName;
+
+        public CourseSubject(int id, string subjectName)
+        {
+            this.Id = id;
+            this.SubjectName = subjectName;
+        }
     }
 }
