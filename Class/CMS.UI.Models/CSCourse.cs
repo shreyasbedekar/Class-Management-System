@@ -7,7 +7,7 @@ namespace CMS.UI.Models
 {
     public class CSCourse : Course
     {
-        public override void AddSubject(CourseSubject subject)
+        public sealed override void AddSubject(CourseSubject subject)
         {
             Console.WriteLine("Calling CSCourse.AddSubject(CourseSubject)");
             base.AddSubject(subject);

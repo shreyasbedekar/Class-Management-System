@@ -27,7 +27,7 @@ namespace CMS.UI.Models
             subjects.Add(subject);
         }
 
-        public void RemoveSubject(CourseSubject subject)
+        public virtual void RemoveSubject(CourseSubject subject)
         {
             subjects.Remove(subject);
         }

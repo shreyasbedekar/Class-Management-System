@@ -157,7 +157,10 @@ namespace CMS.Application
             Course course = new Course();
             course.AddSubject(new CourseSubject(30, "Maths"));
 
-            
+            ElectronicsCourse electronicsCourse = new ElectronicsCourse();
+            electronicsCourse.AddSubject(new CourseSubject(401, "Basics of Electrical Science"));
+
+            electronicsCourse.RemoveSubject(new CourseSubject(401, "Basics of Electrical Science"));
         }
     }
 }

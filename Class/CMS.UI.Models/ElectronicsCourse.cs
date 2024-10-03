@@ -5,27 +5,18 @@ using System.Threading.Tasks;
 
 namespace CMS.UI.Models
 {
-    public class ElectronicsCourse : ICourse
+    public class ElectronicsCourse : Course
     {
-        public List<CourseSubject> Subjects => throw new NotImplementedException();
-
-        int ICourse.TotalDurationInDays { get => throw new NotImplementedException(); set => throw new NotImplementedException(); }
-
-        List<CourseSubject> ICourse.Subjects => throw new NotImplementedException();
-
-        void ICourse.AddSubject(CourseSubject subject)
+        public override void AddSubject(CourseSubject subject)
         {
-            throw new NotImplementedException();
+            Console.WriteLine("Calling ElectronicsCourse.AddSubject(CourseSubject)");
+            base.AddSubject(subject);
         }
 
-        void ICourse.AddSubject(List<CourseSubject> subjectName)
+        public override void RemoveSubject(CourseSubject subject)
         {
-            throw new NotImplementedException();
-        }
-
-        void ICourse.RemoveSubject(CourseSubject subject)
-        {
-            throw new NotImplementedException();
+            Console.WriteLine("Calling ElectronicsCourse.RemoveSubject(CourseSubject)");
+            base.RemoveSubject(subject);
         }
     }
 }
